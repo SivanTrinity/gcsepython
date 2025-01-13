@@ -1,0 +1,30 @@
+#data types#
+#cribs#
+Character ="a"
+real_Float =12.6
+integer =78
+Boolean = True
+string = "dogw1"
+
+#it is possible to do maths with floats and integers#
+#it is not possible to do maths with strings or characters#
+#example#
+num1 = 99
+num2 = 45
+total = num1 + num2
+print(total)
+
+num11 = 99.87
+num21 = 45.9
+total = num11 + num21
+print(total)
+
+num111 = "20" #string#
+num211 = "30" #string#
+total = num111 + num211
+print(total)
+
+
+#You cannot add strings or characters#
+#instead the add symbol glues them together#
+#but we dont call it glue, we call it concatenation#
