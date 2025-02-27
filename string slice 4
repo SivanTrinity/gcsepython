@@ -1,0 +1,7 @@
+line = input("Enter the first line of a nursery rhyme ")
+lenline = len(line)
+print("This has",lenline, "letters in it")
+num1 = int(input("Enter a starting number as an integer "))
+num2 = int(input("Enter an ending number as an integer"))
+for numlist in range(num1, num2):
+    print(numlist)
