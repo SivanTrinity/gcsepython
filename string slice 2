@@ -1,0 +1,5 @@
+name = str(input("Enter first name "))
+name2 = str(input("Enter last name "))
+print(name,name2)
+namelength = len(name + name2)
+print(namelength)
