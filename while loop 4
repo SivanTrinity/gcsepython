@@ -1,0 +1,8 @@
+sentry = "y"
+count = 0
+while sentry != "n":
+    name = input("who do you invite ")
+    print(name, "has been invited")
+    count = count + 1
+    sentry =input("do you want to invite somebody else ")
+print(count)
