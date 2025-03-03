@@ -1,0 +1,7 @@
+compnum = 50
+num = int(input("enter a number "))
+count = 0
+while num != compnum:
+    num =int(input("have another guess "))
+    count = count + 1
+print("well done, you took", count, "attempts")
