@@ -1,0 +1,7 @@
+MySpaceCompany = []
+print(MySpaceCompany)
+MySpaceCompany.append(input(" "))
+MySpaceCompany.append(input(" "))
+MySpaceCompany.append(input(" "))
+
+print(MySpaceCompany)
