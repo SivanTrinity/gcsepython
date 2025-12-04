@@ -1,0 +1,20 @@
+def menu():
+    print("Dominion Team Deathmatch Headquarters")
+    selection = False
+    while selection == False:
+        mode = int(input("1 2 or 3"))
+        if mode == 1:
+            selection = True
+            print(" Dominion ")
+        elif mode == 2:
+            selection = True
+            print(" Team Deathmatch ")
+        elif mode == 3:
+            selection = True
+            print(" Headquarters ")
+        else:
+            selection = False
+
+menu()
+                     
+
