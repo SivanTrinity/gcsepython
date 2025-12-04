@@ -1,0 +1,15 @@
+def menu():
+    selection = False
+    while selection == False:
+        mode = input("career mode tournament mode online seasons (C/T/O)")
+        if mode =="C":
+            print("Career mode")
+            selection = True
+        elif mode =="T":
+            print("Tournament mode")
+            selection = True
+        elif mode =="O":
+            print("Online mode")
+            selection = True
+menu()
+        
